@@ -1,6 +1,6 @@
-<h1 align="center">
-  <img alt="Logo" src="./public/logo.svg" alt="SpaceTraveling">
-</h1>
+<p align="center">
+  <img src="./.github/logo.png" alt="Preview">
+</p>
 
 <h1 align="center">
     SpaceTraveling - Next.js
