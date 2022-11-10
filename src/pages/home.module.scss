@@ -1,0 +1,48 @@
+.postPreview {
+  height: 6.75rem;
+
+  h2 {
+    font-weight: 700;
+    color: var(--heading);
+  }
+
+  p {
+    color: var(--body);
+    padding: 0.5rem 0;
+  }
+
+  div {
+    color: var(--info);
+    margin-top: 0.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    svg {
+      margin-right: 0.25rem;
+    }
+
+    span {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.postPreview + .postPreview {
+  margin-top: 1rem;
+}
+
+.loadButton {
+  padding: 1rem 0;
+  margin-top: 2rem;
+  background: transparent;
+  color: var(--highlight);
+  font-size: 1.125rem;
+  font-weight: 600;
+  transition: 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
